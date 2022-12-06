@@ -1,0 +1,22 @@
+INFO:root:---------------------------- KNN ---------------------------
+INFO:root: Dataset : TUT1
+INFO:root: Original database size : (1476, 309)
+INFO:root: Mean 2D positioning error : 8.623 m
+INFO:root: Mean 3D positioning error : 9.601 m
+INFO:root: Floor hit rate : 90.000%
+INFO:root: Building hit rate : 100.000%
+INFO:root: Full time : 0.416921 s
+INFO:root: --------------------------------------------------------- 
+INFO:root: After the data cleaning : (995, 309)
+INFO:root: Configured match percent: 35
+INFO:root: Reduced : 32.59%
+INFO:root: Cleaning time : 23.340578 sec
+INFO:root: Mean 2D positioning error : 7.788 m
+INFO:root: Mean 3D positioning error : 8.382 m
+INFO:root: Floor hit rate : 91.224%
+INFO:root: Building hit rate : 100.000%
+INFO:root: Full time : 0.283950 s
+INFO:root: ------- KNN configuration ------- 
+INFO:root: model: kNN
+INFO:root: K: 1
+INFO:root: distance: manhattan

@@ -1,0 +1,21 @@
+INFO:root:---------------------------- KNN ---------------------------
+INFO:root: Dataset : UJI1
+INFO:root: Original database size : (19861, 520)
+INFO:root: Mean 2D positioning error : 7.718 m
+INFO:root: Mean 3D positioning error : 10.829 m
+INFO:root: Floor hit rate : 87.759%
+INFO:root: Building hit rate : 99.190%
+INFO:root: Full time : 21.673892 s
+INFO:root: --------------------------------------------------------- 
+INFO:root: After the data cleaning : (17421, 520)
+INFO:root: Configured match percent: 20
+INFO:root: Reduced : 12.29%
+INFO:root: Mean 2D positioning error : 7.721m
+INFO:root: Mean 3D positioning error : 8.962m
+INFO:root: Floor hit rate : 90.369%
+INFO:root: Building hit rate : 100.000%
+INFO:root: Full time : 19.000052s
+INFO:root: ------- KNN configuration ------- 
+INFO:root: model: kNN
+INFO:root: K: 1
+INFO:root: distance: manhattan

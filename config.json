@@ -1,0 +1,185 @@
+{
+  "__comment": "All the datasets have to be inside of dataset/{dataset_name}/.",
+  "path":{
+    "data_source": "dataset",
+    "saved_model": "saved_model",
+    "cleaned_db": "cleaned_db",
+    "plot": "plots",
+    "results": "results"
+  },
+  "dataset": [
+    {
+      "name": "LIB1",
+      "data_representation": "positive",
+      "default_null_value": 100,
+      "distance_metric": "manhattan",
+      "k": 1,
+      "clean_db": true,
+      "match_percentage": 33,
+      "train_dataset": "Train.csv",
+      "test_dataset": "Test.csv",
+      "validation_dataset": ""
+    },
+    {
+      "name": "LIB2",
+      "data_representation": "powed",
+      "default_null_value": 100,
+      "distance_metric": "manhattan",
+      "k": 1,
+      "clean_db": true,
+      "match_percentage": 40,
+      "train_dataset": "Train.csv",
+      "test_dataset": "Test.csv",
+      "validation_dataset": ""
+    },
+    {
+      "name": "MAN1",
+      "data_representation": "positive",
+      "default_null_value": 100,
+      "distance_metric": "manhattan",
+      "k": 1,
+      "clean_db": true,
+      "match_percentage": 34,
+      "train_dataset": "Train.csv",
+      "test_dataset": "Test.csv",
+      "validation_dataset": ""
+    },
+    {
+      "name": "MAN2",
+      "data_representation": "positive",
+      "default_null_value": 100,
+      "distance_metric": "manhattan",
+      "k": 1,
+      "clean_db": true,
+      "match_percentage": 45,
+      "train_dataset": "Train.csv",
+      "test_dataset": "Test.csv",
+      "validation_dataset": ""
+    },
+    {
+      "name": "TUT1",
+      "data_representation": "positive",
+      "default_null_value": 100,
+      "distance_metric": "manhattan",
+      "k": 1,
+      "clean_db": true,
+      "match_percentage": 35,
+      "train_dataset": "Train.csv",
+      "test_dataset": "Test.csv",
+      "validation_dataset": ""
+    },
+    {
+      "name": "TUT2",
+      "data_representation": "positive",
+      "default_null_value": 100,
+      "distance_metric": "manhattan",
+      "k": 1,
+      "clean_db": true,
+      "match_percentage": 30,
+      "train_dataset": "Train.csv",
+      "test_dataset": "Test.csv",
+      "validation_dataset": ""
+    },
+    {
+      "name": "TUT3",
+      "data_representation": "positive",
+      "default_null_value": 100,
+      "distance_metric": "manhattan",
+      "k": 1,
+      "clean_db": true,
+      "match_percentage": 2,
+      "train_dataset": "Train.csv",
+      "test_dataset": "Test.csv",
+      "validation_dataset": ""
+    },
+    {
+      "name": "TUT4",
+      "data_representation": "positive",
+      "default_null_value": 100,
+      "distance_metric": "manhattan",
+      "k": 1,
+      "clean_db": true,
+      "match_percentage": 1,
+      "train_dataset": "Train.csv",
+      "test_dataset": "Test.csv",
+      "validation_dataset": ""
+    },
+    {
+      "name": "TUT5",
+      "data_representation": "positive",
+      "default_null_value": 100,
+      "distance_metric": "manhattan",
+      "k": 1,
+      "clean_db": true,
+      "match_percentage": 21,
+      "train_dataset": "Train.csv",
+      "test_dataset": "Test.csv",
+      "validation_dataset": ""
+    },
+    {
+      "name": "TUT6",
+      "data_representation": "positive",
+      "default_null_value": 100,
+      "distance_metric": "manhattan",
+      "k": 1,
+      "clean_db": true,
+      "match_percentage": 2,
+      "train_dataset": "Train.csv",
+      "test_dataset": "Test.csv",
+      "validation_dataset": ""
+    },
+    {
+      "name": "TUT7",
+      "data_representation": "positive",
+      "default_null_value": 100,
+      "distance_metric": "manhattan",
+      "k": 1,
+      "clean_db": true,
+      "match_percentage": 0,
+      "train_dataset": "Train.csv",
+      "test_dataset": "Test.csv",
+      "validation_dataset": ""
+    },
+    {
+      "name": "UJI1",
+      "data_representation": "positive",
+      "default_null_value": 100,
+      "distance_metric": "manhattan",
+      "k": 1,
+      "clean_db": true,
+      "match_percentage": 20,
+      "train_dataset": "Train.csv",
+      "test_dataset": "Test.csv",
+      "validation_dataset": ""
+    },
+    {
+      "name": "UJI2",
+      "data_representation": "positive",
+      "default_null_value": 100,
+      "distance_metric": "manhattan",
+      "k": 1,
+      "clean_db": true,
+      "match_percentage": 20,
+      "train_dataset": "Train.csv",
+      "test_dataset": "Test.csv",
+      "validation_dataset": ""
+    },
+    {
+      "name": "UTS1",
+      "data_representation": "positive",
+      "default_null_value": 100,
+      "distance_metric": "manhattan",
+      "k": 1,
+      "clean_db": true,
+      "match_percentage": 20,
+      "train_dataset": "Train.csv",
+      "test_dataset": "Test.csv",
+      "validation_dataset": ""
+    }
+  ],
+  "model_config":
+    {
+      "model": "CLEANINGDB",
+      "wp": "MAX"
+    }
+}

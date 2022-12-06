@@ -1,0 +1,21 @@
+INFO:root:---------------------------- KNN ---------------------------
+INFO:root: Dataset : LIB1
+INFO:root: Original database size : (576, 174)
+INFO:root: Mean 2D positioning error : 3.035 m
+INFO:root: Mean 3D positioning error : 3.043 m
+INFO:root: Floor hit rate : 99.840%
+INFO:root: Building hit rate : 100.000%
+INFO:root: Full time : 0.531413 s
+INFO:root: --------------------------------------------------------- 
+INFO:root: After the data cleaning : (486, 174)
+INFO:root: Configured match percent: 33
+INFO:root: Reduced : 15.62%
+INFO:root: Mean 2D positioning error : 3.029m
+INFO:root: Mean 3D positioning error : 3.037m
+INFO:root: Floor hit rate : 99.840%
+INFO:root: Building hit rate : 100.000%
+INFO:root: Full time : 0.448047s
+INFO:root: ------- KNN configuration ------- 
+INFO:root: model: kNN
+INFO:root: K: 1
+INFO:root: distance: manhattan
