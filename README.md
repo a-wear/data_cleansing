@@ -1,6 +1,6 @@
 <br />
 <p align="center"> 
-  <h3 align="center">Wi-Fi Fingerprinting Data Clearning</h3>
+  <h3 align="center">Data Cleansing for Indoor Positioning Wi-Fi Fingerprinting Datasets</h3>
 </p>
 
 [![pub package](https://img.shields.io/badge/license-CC%20By%204.0-green)]()
